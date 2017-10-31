@@ -1,0 +1,64 @@
+.ht-ads-container {
+	position: relative;
+}
+.ht-ads-button {
+	display: block;
+	background: rgba(0,0,0,0.4);
+	position: absolute;
+	z-index: 10000;
+	right: 100%;
+	top: 0;
+	width: 16px;
+	height: 16px;
+	line-height: 16px;
+	text-align: center;
+	color: #fff;
+}
+.ht-ads-button:hover {
+	color: #fff;
+}
+.ht-ads-button img {
+	width: 10px;
+	height: 10px;
+}
+#ht-bottom-right-ads {
+	position: fixed;
+	z-index: 10000;
+	bottom: 0;
+	right: 0;
+	max-width: 300px;
+	height: auto;
+}
+
+body.iframe-post #ht-bottom-right-ads {
+	right: 20px;
+}
+
+#ht-bottom-left-ads {
+	position: fixed;
+	z-index: 10000;
+	bottom: 0;
+	left: 0;
+	max-width: 300px;
+	height: auto;
+}
+
+@media (max-width: 991px) {
+	#ht-bottom-left-ads {
+		display: none;
+	}
+}
+
+#ht-bottom-left-ads .ht-ads-button {
+	display: block;
+	background: rgba(0,0,0,0.4);
+	position: absolute;
+	z-index: 10000;
+	left: 100%;
+	top: 0;
+	width: 16px;
+	height: 16px;
+	line-height: 16px;
+	text-align: center;
+	color: #fff;
+}

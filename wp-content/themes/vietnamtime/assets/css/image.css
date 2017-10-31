@@ -1,0 +1,9 @@
+.vpost-lg .post-image img {
+    /*max-width: 496px;*/
+    /*max-height: 280px;*/
+}
+
+.vpost-sm .post-image img {
+    width: 173px;
+    height: 120px;
+}
